@@ -1,17 +1,12 @@
 # Minecraft AI
 
-Moteur voxel 3D et algorithmes de navigation autonome en C++.
+Petit moteur voxel 3D en C++ avec navigation autonome.
 
-## Présentation
+Gère le raycasting, l'affichage de cubes et le déplacement sur un terrain généré.
 
-Simulation de monde cubique en C++ explorant le raycasting spatial, le maillage procédural et la navigation d'agents sur terrain irrégulier.
-
-## Compilation et Lancement
+## Build et lancement
 
 ```bash
-# Compiler avec g++
 g++ -O2 minecraft.cpp -o minecraft
-
-# Lancer la simulation
 ./minecraft
 ```
