@@ -1,17 +1,17 @@
 # Minecraft AI
 
-Voxel engine and autonomous agent navigation in C++.
+Moteur voxel 3D et algorithmes de navigation autonome en C++.
 
-## Overview
+## Présentation
 
-3D grid simulation experimenting with spatial raycasting and procedural world navigation.
+Simulation de monde cubique en C++ explorant le raycasting spatial, le maillage procédural et la navigation d'agents sur terrain irrégulier.
 
-## Getting Started
+## Compilation et Lancement
 
 ```bash
-# Compile
+# Compiler avec g++
 g++ -O2 minecraft.cpp -o minecraft
 
-# Run
+# Lancer la simulation
 ./minecraft
 ```
